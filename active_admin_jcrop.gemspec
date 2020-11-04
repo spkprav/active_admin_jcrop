@@ -19,12 +19,12 @@ Gem::Specification.new do |s|
   s.test_files = Dir["spec/**/*"]
   s.add_dependency "rails", "> 3.2.0"
   s.add_dependency "mini_magick"
-  
+
   # Dummy
   s.add_development_dependency "mysql2"
   s.add_development_dependency "carrierwave"
   s.add_development_dependency "rmagick"
-  
+
   # Tests
   s.add_development_dependency "rspec-rails", '~> 3.0.1'
   s.add_development_dependency "capybara", '~> 2.3.0'
@@ -35,5 +35,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "pry"
   s.add_development_dependency "phashion"
   s.add_development_dependency "rake"
-  
+
 end
